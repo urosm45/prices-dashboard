@@ -89,6 +89,6 @@ plt.tick_params(axis='both', which='both', length=0)
 fig.set_size_inches(20.59 / 2.54, 10.64 / 2.54)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\aluminium.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\aluminium.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

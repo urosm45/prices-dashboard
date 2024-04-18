@@ -129,6 +129,6 @@ ax.yaxis.set_major_locator(MultipleLocator(1000))
 ax.set_ylim(bottom=1000, top=specific_rows[['Unnamed: 4', 'Unnamed: 6', 'Unnamed: 8']].values.max() + 1000)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\buttermilkcheese.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\buttermilkcheese.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

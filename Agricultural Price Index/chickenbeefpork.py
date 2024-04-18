@@ -147,6 +147,6 @@ ax.yaxis.set_major_locator(MultipleLocator(10))
 ax.set_ylim(bottom=80, top=specific_cattleclean.values.max()+20)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\chickenbeefpork.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\chickenbeefpork.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

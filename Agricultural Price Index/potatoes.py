@@ -106,6 +106,6 @@ ax.yaxis.set_major_locator(MultipleLocator(20))
 ax.set_ylim(bottom=60, top=specific_column.values.max()+20)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\potatoes.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\potatoes.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

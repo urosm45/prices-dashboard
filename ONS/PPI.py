@@ -114,6 +114,6 @@ max_value = max(max(output_domestic), max(input_domestic), max(input_imported))
 plt.ylim(bottom=100, top=max_value + 10)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\ppi.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\ppi.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

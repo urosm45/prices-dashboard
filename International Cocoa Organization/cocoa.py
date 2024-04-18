@@ -77,6 +77,6 @@ max_value = max(cocoa_values)
 plt.ylim(bottom=1000, top=max_value + 500)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\cocoa.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\cocoa.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

@@ -143,6 +143,6 @@ ax.yaxis.set_major_locator(MultipleLocator(100))
 ax.set_ylim(bottom=100, top=specific_rows[['Unnamed: 30', 'Unnamed: 32', 'Unnamed: 37', 'Unnamed: 24']].values.max() + 100)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\maizericewheatsoybeans.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\maizericewheatsoybeans.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

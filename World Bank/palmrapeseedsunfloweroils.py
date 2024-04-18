@@ -129,6 +129,6 @@ ax.yaxis.set_major_locator(MultipleLocator(500))
 ax.set_ylim(bottom=500, top=specific_rows[['Unnamed: 22', 'Unnamed: 27', 'Unnamed: 28']].values.max() + 500)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\food oils.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\food oils.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

@@ -92,6 +92,6 @@ fig.set_size_inches(20.59 / 2.54, 10.64 / 2.54)
 ax.set_ylim(bottom=0, top=specific_rows[['Unnamed: 47']].values.max() + 0.2)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\sugar.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\sugar.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()

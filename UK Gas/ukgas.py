@@ -79,6 +79,6 @@ max_value = max(uk_gas)
 plt.ylim(bottom=0, top=max_value + 100)
 
 # Save the figure without extra whitespace
-plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\ukgas.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
+plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pricesDashboard\-Graphs\ukgas.pdf', bbox_inches='tight', pad_inches=0.1, format="pdf")
 
 plt.show()
