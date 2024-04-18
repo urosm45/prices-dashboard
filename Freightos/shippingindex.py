@@ -81,4 +81,6 @@ plt.savefig(r'C:\Users\Uros.Milosevic\PycharmProjects\pythonProject\-Graphs\glob
 
 plt.show()
 
+#check
+
 
