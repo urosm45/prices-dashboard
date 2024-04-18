@@ -114,7 +114,7 @@ plt.ylabel('Index Value', color='#797878', fontsize=8)
 plt.title('Chicken, beef and pork', color='#001E60', fontsize=12)
 plt.xticks(rotation=90, fontsize=7, color='#797878') # Rotate x-axis labels by 45 degrees
 plt.yticks(fontsize=9, color='#797878')
-plt.legend(fontsize=8)
+legend = plt.legend(fontsize=8, labelcolor='#001E60')
 
 # Add horizontal gridlines
 plt.grid(axis='y', linestyle='-', color='#D9D9D9')
